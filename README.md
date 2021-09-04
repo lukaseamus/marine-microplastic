@@ -5,14 +5,14 @@ The repository is split into two folders: **STOTEN** and **MPB**. The former con
 
 **STOTEN**
 `fragments.csv`/`fragments.R`: Microplatic emission from the abrasion of rope.
-    - *rope* = rope category for the main analysis
-    - *code* = rope ID
-    - *age* = rope age given in years
-    - *polymer* = rope material
-    - *diameter* = rope diameter given in millimetres
-    - *use* = previous use of rope
-    - *mass* = mass of microplastic released after 50 one-metre hauls of a 2.5-kilogram weight given in grams
-    - *density* = density of rope material given in grams per cubic centimetre
-    - *volume* = total volume of microplastic fragments released after 50 one-metre hauls of a 2.5-kilogram weight given in cubic centimetres (derived from *mass* and *density*)
-    - *fragment.volume* = mean volume of microplastic fragments released after 50 one-metre hauls of a 2.5-kilogram weight given in cubic centimetres
-    - *fragments* = number of microplatic fragments released after 50 one-metre hauls of a 2.5-kilogram weight (derived from *volume* and *fragment.volume*)
+    * *rope* = rope category for the main analysis
+    * *code* = rope ID
+    * *age* = rope age given in years
+    * *polymer* = rope material
+    * *diameter* = rope diameter given in millimetres
+    * *use* = previous use of rope
+    * *mass* = mass of microplastic released after 50 one-metre hauls of a 2.5-kilogram weight given in grams
+    * *density* = density of rope material given in grams per cubic centimetre
+    * *volume* = total volume of microplastic fragments released after 50 one-metre hauls of a 2.5-kilogram weight given in cubic centimetres (derived from *mass* and *density*)
+    * *fragment.volume* = mean volume of microplastic fragments released after 50 one-metre hauls of a 2.5-kilogram weight given in cubic centimetres
+    * *fragments* = number of microplatic fragments released after 50 one-metre hauls of a 2.5-kilogram weight (derived from *volume* and *fragment.volume*)
