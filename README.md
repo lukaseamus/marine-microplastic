@@ -16,3 +16,5 @@ The repository is split into two folders: **STOTEN** and **MPB**. The former con
 * *volume* = total volume of microplastic fragments released after 50 one-metre hauls of a 2.5-kilogram weight given in cubic centimetres (derived from *mass* and *density*)
 * *fragment.volume* = mean volume of microplastic fragments released after 50 one-metre hauls of a 2.5-kilogram weight given in cubic centimetres
 * *fragments* = number of microplatic fragments released after 50 one-metre hauls of a 2.5-kilogram weight (derived from *volume* and *fragment.volume*)
+
+Luka Seamus Wright, 4 September 2021
