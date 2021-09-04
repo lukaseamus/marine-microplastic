@@ -1,12 +1,11 @@
-###################################################
-##### Title: Abrasion of rope may contribute  #####
-##### significantly to microplastic pollution #####
-##### Author: Luka Seamus Wright              #####
-###################################################
+##################################################################
+##### Title: Microplastic emission from the abrasion of rope #####
+##### Author: Luka Seamus Wright                             #####
+##################################################################
 
 ### Data preparation ####
 ## Load data ####
-frag <- read.csv("~/Desktop/Plymouth University/IMLRU/Fragments/fragments.csv")
+frag <- read.csv("~/PATH/fragments.csv")
 
 ## Rename variables ####
 rope <- factor(frag$rope)
@@ -336,4 +335,3 @@ detach(package:ggplot2)
 rm(list = ls())
 graphics.off()
 cat("\014")
-
