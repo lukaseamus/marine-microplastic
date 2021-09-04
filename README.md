@@ -1,2 +1,2 @@
-# marine-microplastic
-Data and R code accompanying article in *Science of the Total Environment*.
+# Microplatic emission from fishing activity
+Data and R code accompanying articles in *Science of the Total Environment* and *Marine Pollution Bulletin*.
