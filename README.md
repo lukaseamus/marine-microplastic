@@ -4,7 +4,7 @@ Data and R code accompanying articles "Potential microplastic release from the m
 The repository is split into two folders: **STOTEN** and **MPB**. The former contains all files to perform the statitsical analysis required from the *Science of the Total Environment* article. The latter contains all files to perform the statitsical analysis required from the *Marine Pollution Bulletin* article. Below is a description of each file within those folders.
 
 **STOTEN**
-`fragments.csv`/`fragments.R`: Microplatic emission from the abrasion of rope.
+`fragments.csv`|`fragments.R`: Microplatic emission from the abrasion of rope.
 * *rope* = rope category for the main analysis
 * *code* = rope ID
 * *age* = rope age given in years
