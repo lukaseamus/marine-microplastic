@@ -1,5 +1,5 @@
 # Microplatic emission from fishing activity
-Data and R code accompanying articles in *Science of the Total Environment* and *Marine Pollution Bulletin*.
+Data and R code accompanying articles "Potential microplastic release from the maritime industry: abrasion of rope" in *Science of the Total Environment* and "Potential microplastic release from beached fishing gear in Great Britain’s region of highest fishing litter density" in *Marine Pollution Bulletin*.
 
 The repository is split into two folders: **STOTEN** and **MPB**. The former contains all files to perform the statitsical analysis required from the *Science of the Total Environment* article. The latter contains all files to perform the statitsical analysis required from the *Marine Pollution Bulletin* article. Below is a description of each file within those folders.
 
