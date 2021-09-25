@@ -246,7 +246,7 @@ mwp <- ggplot(SMstat, aes(group1, mean)) +
                 width = 0.1) +
   annotate("text", x = 1.5, y = 16.56, label = "***", size = 4.2) +
   labs(x = expression("Wear surface (cm"^2*" m"^-1*")"),
-       y = expression("Microplastic mass ("*mu*"g m"^-1*")")) +
+       y = expression("Abraded microplastic mass ("*mu*"g m"^-1*")")) +
   scale_y_continuous(expand = c(0,0)) +
   scale_x_discrete(labels = c("377", "503")) +
   coord_cartesian(ylim = c(5, 20)) +
@@ -259,7 +259,7 @@ fwp <- ggplot(SFstat, aes(group1, mean)) +
                 width = 0.1) +
   annotate("text", x = 1.5, y = 46.17446, label = "**", size = 4.2) +
   labs(x = expression("Wear surface (cm"^2*" m"^-1*")"),
-       y = expression("Microplastic fragemnts (m"^-1*")")) +
+       y = expression("Abraded microplastic fragments (m"^-1*")")) +
   scale_y_continuous(expand = c(0,0)) +
   scale_x_discrete(labels = c("377", "503")) +
   coord_cartesian(ylim = c(20, 60)) +
