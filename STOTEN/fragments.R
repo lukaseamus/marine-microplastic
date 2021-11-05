@@ -1,7 +1,8 @@
-##################################################################
-##### Title: Microplastic emission from the abrasion of rope #####
-##### Author: Luka Seamus Wright                             #####
-##################################################################
+######################################################
+##### Title: Potential microplastic release from #####
+##### the maritime industry: abrasion of rope    #####
+##### Author: Luka Seamus Wright                 #####
+######################################################
 
 ### Data preparation ####
 ## Load data ####
