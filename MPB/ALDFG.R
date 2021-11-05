@@ -1,8 +1,8 @@
-################################################
-##### Title: Prevalent fishing litter may  #####
-##### contribute to microplastic pollution #####
-##### Author: Luka Seamus Wright           #####
-################################################
+###########################################################################
+##### Title: Potential microplastic release from beached fishing gear #####
+##### in Great Britain’s region of highest fishing litter density     #####
+##### Author: Luka Seamus Wright                                      #####
+###########################################################################
 
 #### Site map ####
 ### Required packages ####
@@ -29,9 +29,9 @@ mytheme <- theme(panel.background = element_blank(),
 
 ### Load data ####
 map.data <- getMap(resolution = "high") # coarse map
-seas <- read.csv("~/Desktop/Plymouth University/IMLRU/ALDFG/Data/seas.csv")
-map.data.fine <- readOGR("~/Desktop/Plymouth University/IMLRU/ALDFG/Data/gadm36_GBR_shp/gadm36_GBR_0.shp") # detailed map
-sites <- read.csv("~/Desktop/Plymouth University/IMLRU/ALDFG/Data/coordinates.csv")
+seas <- read.csv("~/PATH/seas.csv")
+map.data.fine <- readOGR("~/PATH/gadm36_GBR_0.shp") # detailed map sourced from gadm.org
+sites <- read.csv("~/PATH/coordinates.csv")
 site.names <- sites[c(2,4,6,8,10,12),]
 
 ### Plot UK map ####
@@ -90,7 +90,7 @@ map # print (dimensions: 5.5 x 7.5 in)
 #### Part 1: Count data ####
 ### Data preparation ####
 ## Load data ####
-count <- read.csv("~/Desktop/Plymouth University/IMLRU/ALDFG/Data/count.csv")
+count <- read.csv("~/PATH/count.csv")
 
 ## Rename variables ####
 c.region <- count$region
@@ -192,7 +192,7 @@ cp # print (dimensions: 5 x 3 in)
 ##### Part 2: Dimensions data ####
 #### Data preparation ####
 ### Load data ####
-dims <- read.csv("~/Desktop/Plymouth University/IMLRU/ALDFG/Data/dimensions.csv")
+dims <- read.csv("~/PATH/dimensions.csv")
 
 ### Rename variables ####
 d.type <- factor(dims$type, levels = c("Twisted", "Braided", "Filament"))
@@ -508,7 +508,7 @@ lp # print (dimensions: 5 x 3 in)
 ##### Part 3: Filament data ####
 #### Data preparation ####
 ### Load data ####
-filament <- read.csv("~/Desktop/Plymouth University/IMLRU/ALDFG/Data/filaments.csv")
+filament <- read.csv("~/PATH/filaments.csv")
 filament <- filament[-74,] # remove outlier
 
 ### Rename variables ####
@@ -876,10 +876,10 @@ colnames(master2)[13] <- "M25"
 colnames(master2)[14] <- "M75"
 
 #### Create .csv file ####
-write.csv(master, file = "~/Desktop/Plymouth University/IMLRU/ALDFG/Data/master.csv", 
+write.csv(master, file = "~/PATH/master.csv", 
           row.names = F) # save overall differences between ALDFG types
 
-write.csv(master2, file = "~/Desktop/Plymouth University/IMLRU/ALDFG/Data/master2.csv", 
+write.csv(master2, file = "~/PATH/master2.csv", 
           row.names = F) # save differences between ALDFG types and coasts
 
 
@@ -958,4 +958,3 @@ detach(package:cowplot)
 rm(list = ls())
 graphics.off()
 cat("\014")
-
