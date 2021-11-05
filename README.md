@@ -18,5 +18,30 @@ The repository is split into two folders: **STOTEN** and **MPB**. The former con
 * *fragments* = number of microplatic fragments released after 50 one-metre hauls of a 2.5-kilogram weight (derived from *volume* and *fragment.volume*)
 
 **MPB**
+`seas.csv`|`coordiantes.csv`|`ALDFG.R`: Site map.
+* *sea* = regional sea ID
+* *lat* = latitude
+* *long* = longitude
+* *litter* = ALDFG items per person per metre per day (doi: 10.1016/j.scitotenv.2016.11.137)
+* *site* = study beach ID
 
-Luka Seamus Wright, 4 September 2021
+`count.csv`|`ALDFG.R`: Eulittoral abundance of beached ALDFG.
+* *region* = north or south coast of the Southwest Peninsula
+* *site* = study beach ID
+* *type* = ALDFG category
+* *count* = abundance per 100-m stretch of beach
+
+`dimensions.csv`|`ALDFG.R`: ALDFG dimensions.
+* *region* = north or south coast of the Southwest Peninsula
+* *site* = study beach ID
+* *type* = ALDFG category
+* *length* = length in millimetres
+* *width* = width in millimetres
+
+`dimensions.csv`|`ALDFG.R`: ALDFG dimensions.
+* *region* = north or south coast of the Southwest Peninsula
+* *site* = study beach ID
+* *type* = ALDFG category
+* *filaments* = number of filaments
+
+Luka Seamus Wright, 5 November 2021
